@@ -7,14 +7,14 @@ export const defaultNavigation: FuseNavigationItem[] = [
         title: 'Main',
         type : 'basic',
         icon : 'heroicons_outline:document-report',
-        link : '/landing'
+        link : 'example',
     },
     {
         id   : 'blog',
         title: 'Blog',
         type : 'basic',
         icon : 'heroicons_outline:document-add',
-        link : '/blog'
+        link : 'blog'
     }
 ];
 export const compactNavigation: FuseNavigationItem[] = [
@@ -23,30 +23,30 @@ export const compactNavigation: FuseNavigationItem[] = [
         title: 'Main',
         type : 'basic',
         icon : 'heroicons_outline:document-report',
-        link : '/landing'
+        link : 'example'
     },
     {
         id   : 'blog',
         title: 'Blog',
         type : 'basic',
         icon : 'heroicons_outline:document-add',
-        link : '/blog'
+        link : 'blog'
     }
 ];
 export const futuristicNavigation: FuseNavigationItem[] = [
     {
-        id   : 'landing',
+        id   : '',
         title: 'Main',
         type : 'basic',
         icon : 'heroicons_outline:document-report',
-        link : '/landing'
+        link : 'example'
     },
     {
         id   : 'blog',
         title: 'Blog',
         type : 'basic',
         icon : 'heroicons_outline:document-add',
-        link : '/blog'
+        link : 'blog'
     }
 ];
 export const horizontalNavigation: FuseNavigationItem[] = [
@@ -55,14 +55,14 @@ export const horizontalNavigation: FuseNavigationItem[] = [
         title: 'Main',
         type : 'basic',
         icon : 'heroicons_outline:document-report',
-        link : '/landing'
+        link : 'example'
     },
     {
         id   : 'blog',
         title: 'Blog',
         type : 'basic',
         icon : 'heroicons_outline:document-add',
-        link : '/blog'
+        link : 'blog'
     }
 
 ];

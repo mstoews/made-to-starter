@@ -20,7 +20,7 @@ const themes = {
     // Default theme is required for theming system to work correctly
     'default': {
         primary  : {
-            ...colors.amber,
+            ...colors.indigo,
             DEFAULT: colors.indigo[600]
         },
         accent   : {
@@ -65,7 +65,7 @@ const themes = {
  */
 const config = {
     darkMode   : 'class',
-    content: ['./src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js'],
+    content    : ['./src/**/*.{html,scss,ts}'],
     important  : true,
     theme      : {
         fontSize: {
@@ -289,8 +289,7 @@ const config = {
         // Other third party and/or custom plugins
         require('@tailwindcss/typography')({modifiers: ['sm', 'lg']}),
         require('@tailwindcss/aspect-ratio'),
-        require('@tailwindcss/line-clamp'),
-        require('tw-elements/dist/plugin')
+        require('@tailwindcss/line-clamp')
     ]
 };
 
